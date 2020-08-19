@@ -14,6 +14,8 @@
 		A6EF707724ED2AE500E373C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6EF707624ED2AE500E373C4 /* Assets.xcassets */; };
 		A6EF707A24ED2AE500E373C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6EF707824ED2AE500E373C4 /* LaunchScreen.storyboard */; };
 		A6EF708524ED2FE400E373C4 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EF708424ED2FE400E373C4 /* TodoCell.swift */; };
+		A6EF708724ED50C200E373C4 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EF708624ED50C200E373C4 /* Todo.swift */; };
+		A6EF708924ED51C700E373C4 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EF708824ED51C700E373C4 /* APIError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		A6EF707924ED2AE500E373C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6EF707B24ED2AE500E373C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6EF708424ED2FE400E373C4 /* TodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
+		A6EF708624ED50C200E373C4 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		A6EF708824ED51C700E373C4 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		A6EF708324ED2FA500E373C4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A6EF708624ED50C200E373C4 /* Todo.swift */,
+				A6EF708824ED51C700E373C4 /* APIError.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -169,6 +175,8 @@
 				A6EF706E24ED2ADC00E373C4 /* AppDelegate.swift in Sources */,
 				A6EF707024ED2ADC00E373C4 /* SceneDelegate.swift in Sources */,
 				A6EF708524ED2FE400E373C4 /* TodoCell.swift in Sources */,
+				A6EF708724ED50C200E373C4 /* Todo.swift in Sources */,
+				A6EF708924ED51C700E373C4 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
