@@ -16,6 +16,7 @@
 		A6EF708524ED2FE400E373C4 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EF708424ED2FE400E373C4 /* TodoCell.swift */; };
 		A6EF708724ED50C200E373C4 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EF708624ED50C200E373C4 /* Todo.swift */; };
 		A6EF708924ED51C700E373C4 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EF708824ED51C700E373C4 /* APIError.swift */; };
+		A6EF708C24ED60F300E373C4 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EF708B24ED60F300E373C4 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A6EF708424ED2FE400E373C4 /* TodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
 		A6EF708624ED50C200E373C4 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		A6EF708824ED51C700E373C4 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		A6EF708B24ED60F300E373C4 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		A6EF706C24ED2ADC00E373C4 /* Todo */ = {
 			isa = PBXGroup;
 			children = (
+				A6EF708A24ED60D000E373C4 /* Services */,
 				A6EF708324ED2FA500E373C4 /* Model */,
 				A6EF708224ED2F9E00E373C4 /* View */,
 				A6EF708124ED2F9600E373C4 /* Controller */,
@@ -98,6 +101,14 @@
 				A6EF708824ED51C700E373C4 /* APIError.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A6EF708A24ED60D000E373C4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A6EF708B24ED60F300E373C4 /* NetworkService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 				A6EF708524ED2FE400E373C4 /* TodoCell.swift in Sources */,
 				A6EF708724ED50C200E373C4 /* Todo.swift in Sources */,
 				A6EF708924ED51C700E373C4 /* APIError.swift in Sources */,
+				A6EF708C24ED60F300E373C4 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
