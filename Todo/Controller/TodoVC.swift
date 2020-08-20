@@ -15,7 +15,9 @@ class TodoVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        NetworkService.shared.getTodos()
+        NetworkService.shared.getTodos { (todos) in
+            debugPrint(todos)
+        }
     }
 
     @IBAction func addTodoTapped(_ sender: Any) {
