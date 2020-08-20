@@ -9,7 +9,13 @@
 import Foundation
 
 // codable for JSON parsing
+// codable allows to map data directly over the models we create
+
+struct Todos: Codable {
+    let items: Array<Todo>
+}
+
 struct Todo: Codable {
     let item: String
-    let prioirty: Int
+    let priority: Int
 }
